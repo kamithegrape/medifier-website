@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,174 +12,141 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
-
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-
 <header class="navbar glass">
-<div class="logo">MEDIFIER</div>
+
+<div class="logo">Medifier</div>
 
 <nav>
 <a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">About</a>
-<a href="#">Blog</a>
-<a href="#">Contact</a>
+<a href="#services">Services</a>
+<a href="#apply">Careers</a>
+<a href="#contact">Contact</a>
 </nav>
 
-<button class="cta">Get Started</button>
 </header>
 
 
-<!-- HERO SECTION -->
+<!-- HERO -->
 
 <section class="hero">
 
-<canvas id="dnaCanvas"></canvas>
-
 <div class="hero-content">
 
-<h1>Healthcare Operations  
-<span>Reimagined</span></h1>
+<h1>Your Trusted Medical Companion</h1>
 
 <p>
-Helping hospitals streamline operations, maximize revenue, and focus on patient care.
+Helping healthcare providers streamline operations and improve financial performance.
 </p>
 
-<button class="primary-btn">Request Consultation</button>
+<button class="primary-btn">Talk to an Expert</button>
 
 </div>
 
 </section>
 
-
-<!-- STATS -->
-
-<section class="stats">
-
-<div class="stat-card glass">
-<h2 class="counter" data-target="5000">0</h2>
-<p>Claims Processed</p>
-</div>
-
-<div class="stat-card glass">
-<h2 class="counter" data-target="120">0</h2>
-<p>Healthcare Clients</p>
-</div>
-
-<div class="stat-card glass">
-<h2 class="counter" data-target="99">0</h2>
-<p>% Accuracy Rate</p>
-</div>
-
-</section>
 
 
 <!-- SERVICES -->
 
-<section class="services">
+<section class="services" id="services">
 
 <h2>Our Services</h2>
 
 <div class="service-grid">
 
 <div class="service-card glass">
-<h3>Medical Billing</h3>
-<p>End-to-end revenue cycle management for healthcare providers.</p>
+<h3>Enrollment & Credentialing</h3>
+<p>
+Provider enrollment and credentialing to ensure smooth participation with insurance networks.
+</p>
+<button>Read More</button>
 </div>
 
+
 <div class="service-card glass">
-<h3>Virtual Medical Assistant</h3>
-<p>Professional assistants to manage scheduling and patient communication.</p>
+<h3>Medical Billing</h3>
+<p>
+End-to-end revenue cycle management and billing optimization for healthcare providers.
+</p>
+<button>Read More</button>
 </div>
+
 
 <div class="service-card glass">
 <h3>Medical Transcription</h3>
-<p>Accurate clinical documentation and transcription services.</p>
+<p>
+Accurate and timely documentation of patient encounters and medical records.
+</p>
+<button>Read More</button>
 </div>
+
 
 <div class="service-card glass">
-<h3>Provider Credentialing</h3>
-<p>Efficient credentialing and compliance support.</p>
-</div>
-
-</div>
-
-</section>
-
-
-<!-- WORKFLOW -->
-
-<section class="workflow">
-
-<h2>Our Workflow</h2>
-
-<div class="workflow-container">
-
-<div class="workflow-step glass">
-<span>1</span>
-<p>Patient Data Intake</p>
-</div>
-
-<div class="workflow-step glass">
-<span>2</span>
-<p>Insurance Verification</p>
-</div>
-
-<div class="workflow-step glass">
-<span>3</span>
-<p>Medical Coding</p>
-</div>
-
-<div class="workflow-step glass">
-<span>4</span>
-<p>Claim Submission</p>
-</div>
-
-<div class="workflow-step glass">
-<span>5</span>
-<p>Payment & Reporting</p>
-</div>
-
-</div>
-
-</section>
-
-
-<!-- TESTIMONIAL -->
-
-<section class="testimonial glass">
-
+<h3>Virtual Medical Scribe</h3>
 <p>
-“Medifier Solutions has been a pillar of support for our healthcare operations.”
+Professional medical scribes helping physicians focus on patient care.
 </p>
+<button>Read More</button>
+</div>
 
-<h4>— Dr. Ebony Petit</h4>
+</div>
 
 </section>
 
 
-<!-- CONTACT -->
 
-<section class="contact">
+<!-- CLIENT CONTACT FORM -->
 
-<h2>Start Your Healthcare Transformation</h2>
+<section class="contact" id="contact">
+
+<h2>Talk To An Expert</h2>
 
 <form>
 
-<input type="text" placeholder="Name" required>
-<input type="email" placeholder="Email" required>
-<textarea placeholder="Your Message"></textarea>
+<input type="text" placeholder="Full Name" required>
 
-<button type="submit">Send Message</button>
+<input type="email" placeholder="Email Address" required>
+
+<input type="text" placeholder="Clinic / Hospital Name">
+
+<textarea placeholder="How can we help you?"></textarea>
+
+<button type="submit">Submit Inquiry</button>
 
 </form>
 
 </section>
+
+
+
+<!-- JOB APPLICATION -->
+
+<section class="apply" id="apply">
+
+<h2>Join Our Team</h2>
+
+<form>
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="email" placeholder="Email Address" required>
+
+<input type="text" placeholder="Position Applying For">
+
+<input type="file">
+
+<textarea placeholder="Tell us about yourself"></textarea>
+
+<button type="submit">Apply Now</button>
+
+</form>
+
+</section>
+
 
 
 <footer>
@@ -185,9 +154,6 @@ Helping hospitals streamline operations, maximize revenue, and focus on patient 
 <p>© 2026 Medifier Solutions</p>
 
 </footer>
-
-
-<script src="script.js"></script>
 
 </body>
 </html>
