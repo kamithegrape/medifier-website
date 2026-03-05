@@ -1,97 +1,35 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family: 'Inter', sans-serif;
-}
-
 body{
 background:#0b0f19;
 color:white;
-overflow-x:hidden;
+font-family:Inter;
+margin:0;
 }
-
-/* NAVBAR */
 
 .navbar{
 display:flex;
 justify-content:space-between;
-align-items:center;
 padding:20px 60px;
 position:fixed;
 width:100%;
-top:0;
-z-index:10;
 }
-
-.navbar nav a{
-margin:0 15px;
-color:white;
-text-decoration:none;
-opacity:0.8;
-}
-
-.cta{
-background:#3ddc97;
-border:none;
-padding:10px 20px;
-border-radius:25px;
-}
-
-/* HERO */
 
 .hero{
-height:100vh;
+height:90vh;
 display:flex;
 justify-content:center;
 align-items:center;
 text-align:center;
-position:relative;
-}
-
-.hero h1{
-font-size:60px;
-}
-
-.hero span{
-color:#3ddc97;
 }
 
 .primary-btn{
-margin-top:20px;
-padding:15px 35px;
-background:#3ddc97;
+background:#00c2ff;
+padding:15px 30px;
 border:none;
-border-radius:30px;
+border-radius:25px;
 }
-
-/* GLASSMORPHISM */
-
-.glass{
-background:rgba(255,255,255,0.05);
-backdrop-filter: blur(20px);
-border:1px solid rgba(255,255,255,0.1);
-border-radius:20px;
-}
-
-/* STATS */
-
-.stats{
-display:flex;
-justify-content:center;
-gap:40px;
-padding:100px;
-}
-
-.stat-card{
-padding:40px;
-text-align:center;
-}
-
-/* SERVICES */
 
 .services{
-padding:100px;
+padding:100px 80px;
 text-align:center;
 }
 
@@ -99,45 +37,25 @@ text-align:center;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:30px;
-margin-top:40px;
+margin-top:50px;
 }
 
 .service-card{
 padding:30px;
+border-radius:20px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(15px);
 }
 
-/* WORKFLOW */
-
-.workflow{
-padding:100px;
-text-align:center;
+.service-card button{
+margin-top:15px;
+padding:10px 20px;
+background:#ffd400;
+border:none;
+border-radius:20px;
 }
 
-.workflow-container{
-display:flex;
-justify-content:center;
-gap:30px;
-flex-wrap:wrap;
-margin-top:40px;
-}
-
-.workflow-step{
-padding:30px;
-width:180px;
-}
-
-/* TESTIMONIAL */
-
-.testimonial{
-margin:100px auto;
-width:60%;
-padding:50px;
-text-align:center;
-}
-
-/* CONTACT */
-
-.contact{
+.contact,.apply{
 padding:100px;
 text-align:center;
 }
@@ -150,15 +68,20 @@ max-width:400px;
 margin:auto;
 }
 
-input, textarea{
+input,textarea{
 padding:12px;
 border-radius:10px;
 border:none;
 }
 
 button{
+background:#00c2ff;
 padding:12px;
-background:#3ddc97;
 border:none;
-border-radius:25px;
+border-radius:20px;
+}
+
+footer{
+text-align:center;
+padding:40px;
 }
